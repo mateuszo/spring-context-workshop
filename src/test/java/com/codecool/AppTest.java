@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.*;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class AppTest {
 
@@ -25,7 +25,6 @@ public class AppTest {
 
         //Assert
         String expected = "akka is a palindrome.";
-
-        assertEquals(expected, myOut.toString());
+        assertTrue(myOut.toString().contains(expected));
     }
 }
