@@ -21,7 +21,7 @@ public class AppTest {
 
         //Act
         App app = new App();
-        app.main(new String[0]);
+        app.main(new String[]{"Console"});
 
         //Assert
         String expected = input + " is a palindrome.";
@@ -41,7 +41,7 @@ public class AppTest {
 
         //Act
         App app = new App();
-        app.main(new String[0]);
+        app.main(new String[]{"Console"});
 
         //Assert
         String expected = input + " is not a palindrome.";
